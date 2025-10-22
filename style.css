@@ -12,7 +12,8 @@ html {
     scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     -webkit-font-smoothing: antialiased;
 }
@@ -23,7 +24,8 @@ a {
 
 /* Main portfolio container */
 .personal-portfolio {
-    background-color: #080808; /* ИЗМЕНЕНО */
+    background-color: #080808;
+    /* ИЗМЕНЕНО */
     width: 100%;
 }
 
@@ -35,8 +37,8 @@ a {
 
 /* --- HEADER SECTION --- */
 .header {
-    background-color: transparent; 
-    box-shadow: none; 
+    background-color: transparent;
+    box-shadow: none;
     position: sticky;
     top: 0;
     width: 100%;
@@ -51,7 +53,7 @@ a {
     background-color: #1a1a1a;
     border-radius: 0px 0px 8px 8px;
     padding: 20px 25px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .top-menu {
@@ -66,6 +68,7 @@ a {
     font-size: 14px;
     letter-spacing: 0.14px;
 }
+
 .text-wrapper-20:hover {
     color: #ffffff;
 }
@@ -117,6 +120,7 @@ a {
     box-shadow: 0px 8px 30px #3f8e0080;
     color: #ffffff;
 }
+
 .text-wrapper-18 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     font-weight: 700;
@@ -126,12 +130,14 @@ a {
 .worked-with {
     margin-top: 20px;
 }
+
 .text-wrapper-19 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     color: #ffffff;
     font-size: 14px;
     margin-bottom: 15px;
 }
+
 .clients-logos {
     height: auto;
     max-width: 100%;
@@ -148,14 +154,18 @@ section {
     text-align: center;
 }
 
-.text-wrapper-5, .text-wrapper { /* Section Titles */
+.text-wrapper-5,
+.text-wrapper {
+    /* Section Titles */
     font-family: "Raleway", Helvetica, sans-serif;
     font-weight: 800;
     font-size: 34px;
     margin-bottom: 10px;
 }
 
-.section-subtext, .div { /* Section Subtitles */
+.section-subtext,
+.div {
+    /* Section Subtitles */
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     color: #9c9c9c;
     font-size: 14px;
@@ -166,8 +176,10 @@ section {
 
 /* --- CASE STUDIES SECTION --- */
 .case-studies {
-    background-color: #ffffff; /* ДОБАВЛЕНО */
+    background-color: #ffffff;
+    /* ДОБАВЛЕНО */
 }
+
 .case-studies .text-wrapper-5 {
     color: #080808;
 }
@@ -202,7 +214,9 @@ section {
     gap: 20px;
 }
 
-.tag, .tag-2, .tag-3 {
+.tag,
+.tag-2,
+.tag-3 {
     padding: 2px 10px;
     border-radius: 60px;
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
@@ -210,12 +224,30 @@ section {
     font-size: 12px;
     line-height: 24px;
 }
-.tag { background-color: #e0fff7; }
-.tag-2 { background-color: #d0e5ff; }
-.tag-3 { background-color: #fff6e8; }
-.text-wrapper-13 { color: #29b090; }
-.text-wrapper-14 { color: #000aff; }
-.text-wrapper-15 { color: #ffa217; }
+
+.tag {
+    background-color: #e0fff7;
+}
+
+.tag-2 {
+    background-color: #d0e5ff;
+}
+
+.tag-3 {
+    background-color: #fff6e8;
+}
+
+.text-wrapper-13 {
+    color: #29b090;
+}
+
+.text-wrapper-14 {
+    color: #000aff;
+}
+
+.text-wrapper-15 {
+    color: #ffa217;
+}
 
 
 h3.text-wrapper-4 {
@@ -232,7 +264,9 @@ h3.text-wrapper-4 {
     line-height: 24px;
 }
 
-.call-to-action-4, .call-to-action-5, .call-to-action-6 {
+.call-to-action-4,
+.call-to-action-5,
+.call-to-action-6 {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -240,15 +274,25 @@ h3.text-wrapper-4 {
     border-radius: 4px;
     color: white;
 }
-.call-to-action-4 { background-color: #ffa217; }
-.call-to-action-5 { background-color: #2ab090; }
-.call-to-action-6 { background-color: #000aff; }
+
+.call-to-action-4 {
+    background-color: #ffa217;
+}
+
+.call-to-action-5 {
+    background-color: #2ab090;
+}
+
+.call-to-action-6 {
+    background-color: #000aff;
+}
 
 
 /* --- TESTIMONIALS SECTION --- */
 .testimonials {
     background-color: #080808;
 }
+
 .testimonials .text-wrapper {
     color: #ffffff;
 }
@@ -280,7 +324,8 @@ h3.text-wrapper-4 {
     opacity: 0.1;
 }
 
-.text-wrapper-6, .text-wrapper-8 {
+.text-wrapper-6,
+.text-wrapper-8 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     color: #9c9c9c;
     font-size: 14px;
@@ -310,16 +355,20 @@ h3.text-wrapper-4 {
 
 /* --- RECENT WORK SECTION --- */
 .recent-work {
-    background-color: #ffffff; /* ДОБАВЛЕНО */
+    background-color: #ffffff;
+    /* ДОБАВЛЕНО */
 }
+
 .recent-work .text-wrapper-5 {
     color: #080808;
 }
+
 .recent-work-grid {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+
 .work {
     display: flex;
     flex-direction: column;
@@ -328,11 +377,13 @@ h3.text-wrapper-4 {
     max-width: 445px;
     gap: 20px;
 }
+
 .mask-group {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
+
 .call-to-action-2 {
     display: inline-flex;
     align-items: center;
@@ -349,9 +400,11 @@ h3.text-wrapper-4 {
 .get-in-touch {
     background-color: #080808;
 }
+
 .get-in-touch .text-wrapper {
     color: #ffffff;
 }
+
 .contact-form {
     max-width: 350px;
     margin: 0 auto;
@@ -359,19 +412,23 @@ h3.text-wrapper-4 {
     flex-direction: column;
     gap: 20px;
 }
+
 .form-group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 5px;
 }
+
 .text-wrapper-2 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     font-weight: 600;
     color: #ffffff;
     font-size: 12px;
 }
-.input-field, .textarea-field {
+
+.input-field,
+.textarea-field {
     width: 100%;
     height: 40px;
     padding: 0px 12px;
@@ -381,10 +438,12 @@ h3.text-wrapper-4 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     font-size: 12px;
 }
+
 .textarea-field {
     height: 120px;
     padding-top: 10px;
 }
+
 .call-to-action {
     display: flex;
     height: 50px;
@@ -405,6 +464,7 @@ h3.text-wrapper-4 {
     padding: 25px 0;
     text-align: center;
 }
+
 .text-wrapper-21 {
     font-family: "IBM Plex Mono", Helvetica, sans-serif;
     color: #9c9c9c;
@@ -413,34 +473,95 @@ h3.text-wrapper-4 {
 
 /* --- RESPONSIVENESS --- */
 @media (max-width: 992px) {
-    .hero-content, .work-card, .work-card-reversed {
+
+    .hero-content,
+    .work-card,
+    .work-card-reversed {
         flex-direction: column;
         text-align: center;
     }
-    .hero-text, .work-content {
+
+    .hero-text,
+    .work-content {
         align-items: center;
     }
+
     .recent-work-grid {
         flex-direction: column;
         align-items: center;
     }
 }
 
+.social-links a {
+    color: var(--text-secondary-color);
+    font-size: 2rem;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-5px);
+}
+
+footer {
+    background-color: var(--surface-color);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: var(--text-secondary-color);
+}
+
+
 @media (max-width: 768px) {
     .top-menu {
-        display: none; /* Hide menu on small screens */
+        display: none;
+        /* Hide menu on small screens */
     }
+
     .top-menu-wrapper {
-        justify-content: center; /* Center social icons when menu is hidden */
+        justify-content: center;
+        /* Center social icons when menu is hidden */
     }
+
     .testimonial-grid {
         grid-template-columns: 1fr;
     }
+
     .case-studies-grid {
         gap: 40px;
     }
+
     .work-card img {
         width: 100%;
         height: auto;
+
+        .hero-text .description {
+            margin: 0 auto 30px;
+        }
+
+        .hero-image {
+            max-width: 300px;
+            margin-bottom: 30px;
+        }
+
+        nav ul {
+            display: none;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+        }
     }
 }
