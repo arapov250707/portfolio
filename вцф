@@ -1,0 +1,1361 @@
+index.html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="globals.css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+    <div class="personal-portfolio">
+
+        <header class="header">
+
+            <div class="container">
+
+                <div class="top-menu-wrapper">
+
+                    <div class="top-menu">
+
+                        <a href="#" class="text-wrapper-20">Home</a>
+
+                        <a href="#case-studies" class="text-wrapper-20">Case Studies</a>
+
+                        <a href="#testimonials" class="text-wrapper-20">Testimonials</a>
+
+                        <a href="#recent-work" class="text-wrapper-20">Recent work</a>
+
+                        <a href="#get-in-touch" class="text-wrapper-20">Get In Touch</a>
+
+                    </div>
+
+                    <img class="social-media-icons" src="https://c.animaapp.com/mgfd89baYSTrvd/img/social-media-icons.svg" />
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <section class="hero-section" id="home">
+
+             <div class="container">
+
+                <div class="hero-content">
+
+                    <div class="hero-text">
+
+                        <div class="heading">
+
+                            <h1 class="text-wrapper-16">Your Name Here</h1>
+
+                        </div>
+
+                        <p class="text-wrapper-17">
+
+                            Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+
+                            labore et dolore magna aliqua.
+
+                        </p>
+
+                        <a href="#" class="call-to-action-7">
+
+                            <div class="text-wrapper-18">Let’s get started</div>
+
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                        </a>
+
+                        <div class="worked-with">
+
+                            <p class="text-wrapper-19">Worked with</p>
+
+                            <img class="clients-logos" src="https://c.animaapp.com/mgfd89baYSTrvd/img/clients-logos.svg" />
+
+                        </div>
+
+                    </div>
+
+                    <img class="photo-here" src="https://c.animaapp.com/mgfd89baYSTrvd/img/photo-here.svg" />
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+        <section class="case-studies" id="case-studies">
+
+            <div class="container">
+
+                <h2 class="text-wrapper-5">Case Studies</h2>
+
+                <p class="section-subtext">
+
+                    Solving user &amp; business problems since last 15+ years.<br />Lorem ipsum dolor sit amet, consectetur
+
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+
+                <div class="case-studies-grid">
+
+                    <div class="work-card">
+
+                        <img class="mask-group-2" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-4.png" />
+
+                        <div class="work-content">
+
+                             <div class="tag-3"><div class="text-wrapper-15">Fintech</div></div>
+
+                             <h3 class="text-wrapper-4">Work name here</h3>
+
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                             <a href="#" class="call-to-action-4">
+
+                                <div class="text-wrapper-3">View case study</div>
+
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                             </a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="work-card work-card-reversed">
+
+                         <img class="mask-group-3" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-3.png" />
+
+                         <div class="work-content">
+
+                             <div class="tag-2"><div class="text-wrapper-14">EdTech</div></div>
+
+                             <h3 class="text-wrapper-4">Work name here</h3>
+
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                             <a href="#" class="call-to-action-6">
+
+                                <div class="text-wrapper-3">View case study</div>
+
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                            </a>
+
+                         </div>
+
+                    </div>
+
+                    <div class="work-card">
+
+                         <img class="mask-group-2" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-2.png" />
+
+                         <div class="work-content">
+
+                             <div class="tag"><div class="text-wrapper-13">Pharma</div></div>
+
+                             <h3 class="text-wrapper-4">Work name here</h3>
+
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                             <a href="#" class="call-to-action-5">
+
+                                <div class="text-wrapper-3">View case study</div>
+
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                             </a>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="testimonials" id="testimonials">
+
+            <div class="container">
+
+                <h2 class="text-wrapper">Testimonials</h2>
+
+                <p class="div">
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+
+                    dolore magna aliqua.
+
+                </p>
+
+                <div class="testimonial-grid">
+
+                    <div class="testimonial-card">
+
+                         <div class="quote-mark">“</div>
+
+                         <p class="text-wrapper-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                         <div class="client-info">
+
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-1-1.png" />
+
+                            <div class="text-wrapper-7">Client Name</div>
+
+                         </div>
+
+                    </div>
+
+                     <div class="testimonial-card">
+
+                         <div class="quote-mark">“</div>
+
+                         <p class="text-wrapper-6">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                         <div class="client-info">
+
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-2-1.png" />
+
+                            <div class="text-wrapper-7">Client Name</div>
+
+                         </div>
+
+                    </div>
+
+                     <div class="testimonial-card">
+
+                         <div class="quote-mark">“</div>
+
+                         <p class="text-wrapper-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                         <div class="client-info">
+
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-1.png" />
+
+                            <div class="text-wrapper-7">Client Name</div>
+
+                         </div>
+
+                    </div>
+
+                     <div class="testimonial-card">
+
+                         <div class="quote-mark">“</div>
+
+                         <p class="text-wrapper-6">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                         <div class="client-info">
+
+                             <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-2.png" />
+
+                             <div class="text-wrapper-7">Client Name</div>
+
+                         </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="recent-work" id="recent-work">
+
+            <div class="container">
+
+                <h2 class="text-wrapper-5">Recent Work</h2>
+
+                <p class="div">
+
+                    Solving user &amp; business problems since last 15+ years.<br />Lorem ipsum dolor sit amet, consectetur
+
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+
+                <div class="recent-work-grid">
+
+                    <div class="work">
+
+                        <img class="mask-group" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group.png" />
+
+                        <h3 class="text-wrapper-4">Work name here</h3>
+
+                        <p class="p">Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+
+                        <a href="#" class="call-to-action-2">
+
+                            <div class="text-wrapper-3">Know more</div>
+
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                        </a>
+
+                    </div>
+
+                    <div class="work">
+
+                        <img class="mask-group" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-1.png" />
+
+                        <h3 class="text-wrapper-4">Work name here</h3>
+
+                        <p class="p">Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u</p>
+
+                        <a href="#" class="call-to-action-2">
+
+                            <div class="text-wrapper-3">Know more</div>
+
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="get-in-touch" id="get-in-touch">
+
+            <div class="container">
+
+                <h2 class="text-wrapper">Get In Touch</h2>
+
+                <p class="div">
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+
+                    dolore magna aliqua.
+
+                </p>
+
+                <form class="contact-form">
+
+                    <div class="form-group">
+
+                        <label class="text-wrapper-2">Email</label>
+
+                        <input type="email" class="input-field" placeholder="Please enter your email" />
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="text-wrapper-2">Mobile</label>
+
+                        <input type="tel" class="input-field" placeholder="Enter mobile" />
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label class="text-wrapper-2">Message</label>
+
+                        <textarea class="textarea-field" placeholder="Enter your message"></textarea>
+
+                    </div>
+
+                    <button type="submit" class="call-to-action">
+
+                        <div class="text-wrapper-3">Submit</div>
+
+                        <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+
+        <footer class="footer">
+
+            <p class="text-wrapper-21">Made with ❤️</p>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+style.css
+
+/* Importing fonts from globals.css */
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800|IBM+Plex+Mono:400,700,600");
+
+
+
+/* Basic Reset */
+
+* {
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+body, html {
+
+    height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+/* Main portfolio container */
+
+.personal-portfolio {
+
+    background-color: #080808; /* ИЗМЕНЕНО */
+
+    width: 100%;
+
+}
+
+
+
+.container {
+
+    max-width: 1110px;
+
+    margin: 0 auto;
+
+    padding: 0 15px;
+
+}
+
+
+
+/* --- HEADER SECTION --- */
+
+.header {
+
+    background-color: transparent; 
+
+    box-shadow: none; 
+
+    position: sticky;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 1000;
+
+    padding-top: 1px;
+
+}
+
+
+
+.top-menu-wrapper {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #1a1a1a;
+
+    border-radius: 0px 0px 8px 8px;
+
+    padding: 20px 25px;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+
+}
+
+
+
+.top-menu {
+
+    display: flex;
+
+    gap: 70px;
+
+}
+
+
+
+.text-wrapper-20 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    font-weight: 400;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+    letter-spacing: 0.14px;
+
+}
+
+.text-wrapper-20:hover {
+
+    color: #ffffff;
+
+}
+
+
+
+/* --- HERO SECTION --- */
+
+.hero-section {
+
+    background-color: #080808;
+
+    color: #ffffff;
+
+    padding: 80px 0;
+
+}
+
+
+
+.hero-content {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 40px;
+
+}
+
+
+
+.hero-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 30px;
+
+    max-width: 538px;
+
+}
+
+
+
+.text-wrapper-16 {
+
+    font-family: "Raleway", Helvetica, sans-serif;
+
+    font-weight: 800;
+
+    font-size: 44px;
+
+}
+
+
+
+.text-wrapper-17 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+    line-height: 24px;
+
+    max-width: 492px;
+
+}
+
+
+
+.call-to-action-7 {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 21px 64px;
+
+    background-color: #3e8e00;
+
+    border-radius: 4px;
+
+    border: 1px solid #61b91b;
+
+    box-shadow: 0px 8px 30px #3f8e0080;
+
+    color: #ffffff;
+
+}
+
+.text-wrapper-18 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    font-weight: 700;
+
+    font-size: 16px;
+
+}
+
+
+
+.worked-with {
+
+    margin-top: 20px;
+
+}
+
+.text-wrapper-19 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #ffffff;
+
+    font-size: 14px;
+
+    margin-bottom: 15px;
+
+}
+
+.clients-logos {
+
+    height: auto;
+
+    max-width: 100%;
+
+}
+
+
+
+.photo-here {
+
+    width: 350px;
+
+    height: 350px;
+
+}
+
+
+
+/* --- GENERAL SECTION STYLES --- */
+
+section {
+
+    padding: 80px 0;
+
+    text-align: center;
+
+}
+
+
+
+.text-wrapper-5, .text-wrapper { /* Section Titles */
+
+    font-family: "Raleway", Helvetica, sans-serif;
+
+    font-weight: 800;
+
+    font-size: 34px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.section-subtext, .div { /* Section Subtitles */
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+    line-height: 24px;
+
+    max-width: 570px;
+
+    margin: 0 auto 40px auto;
+
+}
+
+
+
+/* --- CASE STUDIES SECTION --- */
+
+.case-studies {
+
+    background-color: #ffffff; /* ДОБАВЛЕНО */
+
+}
+
+.case-studies .text-wrapper-5 {
+
+    color: #080808;
+
+}
+
+
+
+.case-studies-grid {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 80px;
+
+}
+
+
+
+.work-card {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: center;
+
+    text-align: left;
+
+}
+
+
+
+.work-card-reversed {
+
+    flex-direction: row-reverse;
+
+}
+
+
+
+.work-card img {
+
+    width: 445px;
+
+    height: 300px;
+
+    object-fit: cover;
+
+}
+
+
+
+.work-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+}
+
+
+
+.tag, .tag-2, .tag-3 {
+
+    padding: 2px 10px;
+
+    border-radius: 60px;
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    font-weight: 700;
+
+    font-size: 12px;
+
+    line-height: 24px;
+
+}
+
+.tag { background-color: #e0fff7; }
+
+.tag-2 { background-color: #d0e5ff; }
+
+.tag-3 { background-color: #fff6e8; }
+
+.text-wrapper-13 { color: #29b090; }
+
+.text-wrapper-14 { color: #000aff; }
+
+.text-wrapper-15 { color: #ffa217; }
+
+
+
+
+
+h3.text-wrapper-4 {
+
+    font-family: "Raleway", Helvetica, sans-serif;
+
+    font-weight: 800;
+
+    color: #080808;
+
+    font-size: 24px;
+
+}
+
+
+
+.work-card .p {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+    line-height: 24px;
+
+}
+
+
+
+.call-to-action-4, .call-to-action-5, .call-to-action-6 {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 10px 24px;
+
+    border-radius: 4px;
+
+    color: white;
+
+}
+
+.call-to-action-4 { background-color: #ffa217; }
+
+.call-to-action-5 { background-color: #2ab090; }
+
+.call-to-action-6 { background-color: #000aff; }
+
+
+
+
+
+/* --- TESTIMONIALS SECTION --- */
+
+.testimonials {
+
+    background-color: #080808;
+
+}
+
+.testimonials .text-wrapper {
+
+    color: #ffffff;
+
+}
+
+
+
+.testimonial-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+
+    position: relative;
+
+}
+
+
+
+.testimonial-card {
+
+    border-radius: 6px;
+
+    padding: 30px;
+
+    text-align: left;
+
+    position: relative;
+
+    border: 1px solid #484848;
+
+    background: linear-gradient(to right, #1b1b1b, #080808);
+
+}
+
+
+
+.quote-mark {
+
+    position: absolute;
+
+    top: -20px;
+
+    left: 10px;
+
+    font-family: "Raleway", Helvetica, sans-serif;
+
+    font-weight: 400;
+
+    color: #ffffff;
+
+    font-size: 100px;
+
+    opacity: 0.1;
+
+}
+
+
+
+.text-wrapper-6, .text-wrapper-8 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+    line-height: 24px;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.client-info {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+
+
+.client-photo {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+}
+
+
+
+.text-wrapper-7 {
+
+    font-family: "Raleway", Helvetica, sans-serif;
+
+    font-weight: 700;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+}
+
+
+
+
+
+/* --- RECENT WORK SECTION --- */
+
+.recent-work {
+
+    background-color: #ffffff; /* ДОБАВЛЕНО */
+
+}
+
+.recent-work .text-wrapper-5 {
+
+    color: #080808;
+
+}
+
+.recent-work-grid {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+.work {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    text-align: left;
+
+    max-width: 445px;
+
+    gap: 20px;
+
+}
+
+.mask-group {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+}
+
+.call-to-action-2 {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 10px 24px;
+
+    background-color: #3e8e00;
+
+    border-radius: 4px;
+
+    border: 1px solid #61b91b;
+
+    box-shadow: 0px 8px 30px #3f8e004c;
+
+    color: white;
+
+}
+
+
+
+/* --- GET IN TOUCH SECTION --- */
+
+.get-in-touch {
+
+    background-color: #080808;
+
+}
+
+.get-in-touch .text-wrapper {
+
+    color: #ffffff;
+
+}
+
+.contact-form {
+
+    max-width: 350px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.form-group {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 5px;
+
+}
+
+.text-wrapper-2 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    font-weight: 600;
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+}
+
+.input-field, .textarea-field {
+
+    width: 100%;
+
+    height: 40px;
+
+    padding: 0px 12px;
+
+    background-color: #f7f7f7;
+
+    border-radius: 4px;
+
+    border: 1px solid #d7d7d7;
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    font-size: 12px;
+
+}
+
+.textarea-field {
+
+    height: 120px;
+
+    padding-top: 10px;
+
+}
+
+.call-to-action {
+
+    display: flex;
+
+    height: 50px;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    background-color: #3e8e00;
+
+    border-radius: 4px;
+
+    border: 1px solid #61b91b;
+
+    box-shadow: 0px 8px 30px #3f8e004c;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+
+
+/* --- FOOTER --- */
+
+.footer {
+
+    background-color: #1a1a1a;
+
+    padding: 25px 0;
+
+    text-align: center;
+
+}
+
+.text-wrapper-21 {
+
+    font-family: "IBM Plex Mono", Helvetica, sans-serif;
+
+    color: #9c9c9c;
+
+    font-size: 14px;
+
+}
+
+
+
+/* --- RESPONSIVENESS --- */
+
+@media (max-width: 992px) {
+
+    .hero-content, .work-card, .work-card-reversed {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+    .hero-text, .work-content {
+
+        align-items: center;
+
+    }
+
+    .recent-work-grid {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    .top-menu {
+
+        display: none; /* Hide menu on small screens */
+
+    }
+
+    .top-menu-wrapper {
+
+        justify-content: center; /* Center social icons when menu is hidden */
+
+    }
+
+    .testimonial-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .case-studies-grid {
+
+        gap: 40px;
+
+    }
+
+    .work-card img {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+}
+
+
+
+
+
+global.css
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,800|IBM+Plex+Mono:400,700,600");
+
+* {
+
+  -webkit-font-smoothing: antialiased;
+
+  box-sizing: border-box;
+
+}
+
+html,
+
+body {
+
+  margin: 0px;
+
+  height: 100%;
+
+}
+
+/* a blue color as a generic focus style */
+
+button:focus-visible {
+
+  outline: 2px solid #4a90e2 !important;
+
+  outline: -webkit-focus-ring-color auto 5px !important;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+
+
+Add a button to switch between white and dark. Make it as beautiful as possible; you can do anything EXCEPT RESIZE ELEMENTS. You can use any technology.

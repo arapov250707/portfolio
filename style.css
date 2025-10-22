@@ -264,7 +264,7 @@ footer {
 footer p {
     font-size: 0.9rem;
     color: var(--text-secondary-color);
-}
+    }
 
 @media (max-width: 768px) {
     h1 {
@@ -278,8 +278,8 @@ footer p {
 
     .hero-text .description {
         margin: 0 auto 30px;
-    }
-    
+}
+
     .hero-image {
         max-width: 300px;
         margin-bottom: 30px;
@@ -288,7 +288,7 @@ footer p {
     nav ul {
         display: none;
     }
-}
+    }
 
 @media (max-width: 480px) {
     h1 {
