@@ -1,116 +1,207 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arplnk - Портфолио</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a1f7e3e0a0.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo">Arplnk</div>
-                <ul>
-                    <li><a href="#about">Обо мне</a></li>
-                    <li><a href="#projects">Проекты</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>Привет, я Бекнур</h1>
-                    <p class="subtitle">Начинающий Java-разработчик</p>
-                    <p class="description">
-                        Создаю современные и функциональные веб-решения. Здесь вы можете ознакомиться с моими работами и узнать больше обо мне.
-                    </p>
-                    <a href="#projects" class="cta-button">Смотреть проекты</a>
+    <div class="personal-portfolio">
+        <header class="header">
+            <div class="container">
+                <div class="top-menu-wrapper">
+                    <div class="top-menu">
+                        <a href="#" class="text-wrapper-20">Home</a>
+                        <a href="#case-studies" class="text-wrapper-20">Case Studies</a>
+                        <a href="#testimonials" class="text-wrapper-20">Testimonials</a>
+                        <a href="#recent-work" class="text-wrapper-20">Recent work</a>
+                        <a href="#get-in-touch" class="text-wrapper-20">Get In Touch</a>
+                    </div>
+                    <img class="social-media-icons" src="https://c.animaapp.com/mgfd89baYSTrvd/img/social-media-icons.svg" />
                 </div>
-                <div class="hero-image">
-                    <img src="images/beknur.jpg" alt="Фото Бекнура">
+            </div>
+        </header>
+
+        <section class="hero-section" id="home">
+             <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="heading">
+                            <h1 class="text-wrapper-16">Your Name Here</h1>
+                        </div>
+                        <p class="text-wrapper-17">
+                            Intro text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.
+                        </p>
+                        <a href="#" class="call-to-action-7">
+                            <div class="text-wrapper-18">Let’s get started</div>
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                        </a>
+                        <div class="worked-with">
+                            <p class="text-wrapper-19">Worked with</p>
+                            <img class="clients-logos" src="https://c.animaapp.com/mgfd89baYSTrvd/img/clients-logos.svg" />
+                        </div>
+                    </div>
+                    <img class="photo-here" src="https://c.animaapp.com/mgfd89baYSTrvd/img/photo-here.svg" />
                 </div>
             </div>
         </section>
 
-        <section id="about" class="about">
+
+        <section class="case-studies" id="case-studies">
             <div class="container">
-                <h2>Обо мне</h2>
-                <p>
-                    Я мотивированный и целеустремленный студент 2-го курса колледжа «Ала-Тоо», увлеченный языком программирования Java и разработкой бэкенда. Сейчас я активно изучаю основы объектно-ориентированного программирования (ООП), структуры данных и алгоритмы. Мне нравится решать сложные задачи и создавать логичные и эффективные системы. Я ищу возможность применить свои знания на практике, получить первый реальный опыт и внести свой вклад в интересный проект.
+                <h2 class="text-wrapper-5">Case Studies</h2>
+                <p class="section-subtext">
+                    Solving user &amp; business problems since last 15+ years.<br />Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-            </div>
-        </section>
-
-        <section id="projects" class="projects">
-            <div class="container">
-                <h2>Анализ проектов</h2>
-                <div class="projects-grid">
-                    
-                    <div class="project-card">
-                        <img src="images/mbank.jpg" alt="Mbank">
-                        <div class="project-info">
-                            <h3>Mbank (Кейс-стади)</h3>
-                            <p>Анализ популярного банковского приложения в Кыргызстане. Для его работы требуется прочный и безопасный бэкенд, вероятно, с использованием Java и фреймворков вроде Spring Boot для обработки транзакций.</p>
-                            <div class="project-links">
-                                <a href="https://play.google.com/store/apps/details?id=com.maanavan.mb_kyrgyzstan&hl=ru" target="_blank">Смотреть</a>
-                            </div>
+                <div class="case-studies-grid">
+                    <div class="work-card">
+                        <img class="mask-group-2" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-4.png" />
+                        <div class="work-content">
+                             <div class="tag-3"><div class="text-wrapper-15">Fintech</div></div>
+                             <h3 class="text-wrapper-4">Work name here</h3>
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                             <a href="#" class="call-to-action-4">
+                                <div class="text-wrapper-3">View case study</div>
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                             </a>
                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <img src="images/emap.jpg" alt="Epam">
-                        <div class="project-info">
-                            <h3>Epam (Анализ платформы)</h3>
-                            <p>Epam — глобальная IT-компания с комплексным корпоративным сайтом. Это пример высоконагруженной системы, где бэкенд на Java может использоваться для интеграции внутренних сервисов и управления контентом.</p>
-                            <div class="project-links">
-                                <a href="https://www.epam.com/" target="_blank">Смотреть</a>
-                            </div>
-                        </div>
+                    <div class="work-card work-card-reversed">
+                         <img class="mask-group-3" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-3.png" />
+                         <div class="work-content">
+                             <div class="tag-2"><div class="text-wrapper-14">EdTech</div></div>
+                             <h3 class="text-wrapper-4">Work name here</h3>
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                             <a href="#" class="call-to-action-6">
+                                <div class="text-wrapper-3">View case study</div>
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                            </a>
+                         </div>
                     </div>
-
-                    <div class="project-card">
-                        <img src="images/kaktusmedia.png" alt="Kaktus Media">
-                        <div class="project-info">
-                            <h3>Kaktus Media (Анализ портала)</h3>
-                            <p>Ведущий новостной портал, который обрабатывает огромный трафик. Для таких сайтов критически важна надежная серверная часть, и Java отлично подходит для создания таких стабильных систем.</p>
-                            <div class="project-links">
-                                <a href="https://kaktus.media/" target="_blank">Смотреть</a>
-                            </div>
-                        </div>
+                    <div class="work-card">
+                         <img class="mask-group-2" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-2.png" />
+                         <div class="work-content">
+                             <div class="tag"><div class="text-wrapper-13">Pharma</div></div>
+                             <h3 class="text-wrapper-4">Work name here</h3>
+                             <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                             <a href="#" class="call-to-action-5">
+                                <div class="text-wrapper-3">View case study</div>
+                                <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                             </a>
+                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section class="testimonials" id="testimonials">
             <div class="container">
-                <h2>Свяжитесь со мной</h2>
-                <p>Если у вас есть вопросы или предложения, я всегда открыт для общения.</p>
-                <div class="social-links">
-                    <a href="mailto:arapovbeknur@gmail.com" aria-label="Email"><i class="fas fa-envelope">Email</i></a>
-                    <a href="https://t.me/KBO65" target="_blank" aria-label="Telegram"><i class="fab fa-telegram-plane">Telegram</i></a>
-                    <a href="https://github.com/arapov250707" target="_blank" aria-label="GitHub"><i class="fab fa-github">GitHub</i></a>
+                <h2 class="text-wrapper">Testimonials</h2>
+                <p class="div">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.
+                </p>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                         <div class="quote-mark">“</div>
+                         <p class="text-wrapper-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <div class="client-info">
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-1-1.png" />
+                            <div class="text-wrapper-7">Client Name</div>
+                         </div>
+                    </div>
+                     <div class="testimonial-card">
+                         <div class="quote-mark">“</div>
+                         <p class="text-wrapper-6">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <div class="client-info">
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-2-1.png" />
+                            <div class="text-wrapper-7">Client Name</div>
+                         </div>
+                    </div>
+                     <div class="testimonial-card">
+                         <div class="quote-mark">“</div>
+                         <p class="text-wrapper-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <div class="client-info">
+                            <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-1.png" />
+                            <div class="text-wrapper-7">Client Name</div>
+                         </div>
+                    </div>
+                     <div class="testimonial-card">
+                         <div class="quote-mark">“</div>
+                         <p class="text-wrapper-6">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                         <div class="client-info">
+                             <img class="client-photo" src="https://c.animaapp.com/mgfd89baYSTrvd/img/client-photo-2.png" />
+                             <div class="text-wrapper-7">Client Name</div>
+                         </div>
+                    </div>
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Arplnk. Все права защищены.</p>
-        </div>
-    </footer>
+        <section class="recent-work" id="recent-work">
+            <div class="container">
+                <h2 class="text-wrapper-5">Recent Work</h2>
+                <p class="div">
+                    Solving user &amp; business problems since last 15+ years.<br />Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="recent-work-grid">
+                    <div class="work">
+                        <img class="mask-group" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group.png" />
+                        <h3 class="text-wrapper-4">Work name here</h3>
+                        <p class="p">Labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <a href="#" class="call-to-action-2">
+                            <div class="text-wrapper-3">Know more</div>
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                        </a>
+                    </div>
+                    <div class="work">
+                        <img class="mask-group" src="https://c.animaapp.com/mgfd89baYSTrvd/img/mask-group-1.png" />
+                        <h3 class="text-wrapper-4">Work name here</h3>
+                        <p class="p">Rempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt u</p>
+                        <a href="#" class="call-to-action-2">
+                            <div class="text-wrapper-3">Know more</div>
+                            <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="get-in-touch" id="get-in-touch">
+            <div class="container">
+                <h2 class="text-wrapper">Get In Touch</h2>
+                <p class="div">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua.
+                </p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label class="text-wrapper-2">Email</label>
+                        <input type="email" class="input-field" placeholder="Please enter your email" />
+                    </div>
+                    <div class="form-group">
+                        <label class="text-wrapper-2">Mobile</label>
+                        <input type="tel" class="input-field" placeholder="Enter mobile" />
+                    </div>
+                    <div class="form-group">
+                        <label class="text-wrapper-2">Message</label>
+                        <textarea class="textarea-field" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="call-to-action">
+                        <div class="text-wrapper-3">Submit</div>
+                        <img class="vector" src="https://c.animaapp.com/mgfd89baYSTrvd/img/vector.svg" />
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p class="text-wrapper-21">Made with </p>
+        </footer>
+    </div>
 </body>
 </html>
